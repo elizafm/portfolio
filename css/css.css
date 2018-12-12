@@ -17,11 +17,11 @@ and open the template in the editor.
 }
 
 body{
-   font-family:arial, sans-serif;
+    font-family:arial, sans-serif;
 }
 .nav{
     width:100%;
-    align-content:center;
+
     overflow:hidden;
 }
 .name{
@@ -32,15 +32,14 @@ body{
 }
 
 .navbar{
-width:100%;
+    width:100%;
     text-align:center;
     margin:auto;
     padding-top:10px;
     padding-bottom:10px;
- position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
-  
     background-color: white; /* Black */
     color:black;
 }
@@ -68,7 +67,7 @@ a.nav-item:hover{
 
     #icon {
         display: block;
-        
+
     }
 
     .responsive {
@@ -78,59 +77,59 @@ a.nav-item:hover{
 }
 .jumboimg{
     background-image:url('../img/diamond.jpg');
-     position: relative;
+    position: relative;
 
     background-attachment: fixed;
-    
+
     height:150px;
     width:100%;
     margin:auto;
     background-color:grey;
-     align-content:center;
-   
-    
+    align-content:center;
+
+
 
 }
 
 .blog{
-   
+
     text-align:center;
-   
+
     padding:10px;
     width:80%;
     margin:auto;
-   
+
     font-family:arial, sans-serif;
-    
-    
+
+
 }
 
 a.bloglink{
-  text-decoration:none;
-  color:black;
-  background-color:white;
-  border-radius:3px;
-  padding:10px;
-  border:1px solid black;
+    text-decoration:none;
+    color:black;
+    background-color:white;
+    border-radius:3px;
+    padding:10px;
+    border:1px solid black;
 }
 a.bloglink:hover{
-  color:grey;
+    color:grey;
 }
 a.post{
-  text-decoration:none;
-  color:#10172e;
- 
- 
-  padding:30px;
+    text-decoration:none;
+    color:#10172e;
+
+
+    padding:30px;
 }
 a.post:hover{
-  color:grey;
+    color:grey;
 }
 .row{
     width:80%;
     margin:auto;
-   
-   
+
+
 }
 .col-33{
     width:33.3%;
@@ -138,69 +137,69 @@ a.post:hover{
     align-content: center;
     padding:8px;
     text-align:center;
-   
+
 
 }
 img{
     width:100%;
     height:auto;
-   
+
 
 }
 .col-40{
     width:40%;
     padding:5px;
-        
+
     float:left;
 }
 .col-60{
     width:60%;
-   text-align: center;
+    text-align: center;
     padding:20px;
     float:left;
-    
+
 }
-   .col-50{
-		width: 50%;
-		float:left;
-	}
-         .col-30{
-		width: 30%;
-		float:left;
-	}
- .col-70{
-		width: 70%;
-		float:left;
-                 text-align: center;
+.col-50{
+    width: 50%;
+    float:left;
+}
+.col-30{
+    width: 30%;
+    float:left;
+}
+.col-70{
+    width: 70%;
+    float:left;
+    text-align: center;
     padding:0px 20px 0px 20px;
-	}
+}
 @media screen and (max-width: 800px) {
     .col-33{
-		width: 100%;
-		float:none;
-	}
-         .col-40{
-		width: 100%;
-		float:none;
-	}
-         .col-60{
-		width: 100%;
-		float:none;
-	}
-          .col-50{
-		width: 100%;
-		float:none;
-	}
-        
-           .col-30{
-		width:100%;
-		float:none;
-	}
-           .col-70{
-		width: 100%;
-		float:none;
-	}
-       
+        width: 100%;
+        float:none;
+    }
+    .col-40{
+        width: 100%;
+        float:none;
+    }
+    .col-60{
+        width: 100%;
+        float:none;
+    }
+    .col-50{
+        width: 100%;
+        float:none;
+    }
+
+    .col-30{
+        width:100%;
+        float:none;
+    }
+    .col-70{
+        width: 100%;
+        float:none;
+    }
+
 }
 h2{
     font-family: 'Kaushan Script', cursive;
@@ -216,8 +215,8 @@ hr{
 .card1{
     background-image:url('../img/mock.jpg') ;
     background-size:cover;
-   margin:20px;
-   border-radius:5px;
+    margin:20px;
+    border-radius:5px;
     height:300px;
     position:relative;
 
@@ -227,9 +226,9 @@ hr{
 }
 .card2{
     background-image:url('../img/theme.jpg') ;
-   background-size:cover;
+    background-size:cover;
     margin:20px;
-   border-radius:5px;
+    border-radius:5px;
     height:300px;
     position:relative;
 
@@ -256,22 +255,22 @@ div.card3:hover{
     background-color:white;
     padding:0px 30px 0px 30px;
     width:100%;
-    
+
     text-align:center;
 }
 .blogbg{
-   
+
     width:100%
 }
 .rowskills{
     width:80%;
     margin:auto;
-    
+
 }
 .footer{
     width:100%;
     text-align: center;
-    
+
     padding:20px;
     margin:auto;
     background-color:whitesmoke;
@@ -279,17 +278,23 @@ div.card3:hover{
 .fa-instagram{
     color:black;
     height:50px;
-     text-decoration:none;
+    text-decoration:none;
 }
 .fa-linkedin {
-  
-  color: black;
-  text-decoration:none;
+
+    color: black;
+    text-decoration:none;
 }
 .fa:hover{
     color:grey;
 }
 h4{
     font-family: 'Kaushan Script', cursive;
-   font-size:20px;
+    font-size:20px;
+}
+a.anchor{
+    display:block;
+    position:relative;
+    top:-70px;
+    visibility:hidden;
 }
